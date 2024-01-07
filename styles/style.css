@@ -18,6 +18,16 @@
   font-weight: 700;
 }
 
+.btn-primary {
+  border-radius: 5px;
+  background: #fff;
+  color: #005fac;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 25px;
+  border: none;
+}
+
 /* header section */
 
 header {
@@ -49,17 +59,11 @@ header {
   margin-bottom: 32px;
 }
 
-.header-description-container .btn-primary {
-  border-radius: 5px;
-  background: #fff;
-  color: #005fac;
-  font-size: 20px;
-  font-weight: 600;
-  padding: 25px;
-  border: none;
-}
-
 /* failure section */
+
+.failure-section {
+  margin-bottom: 130px;
+}
 
 .failure-section-container {
   margin-top: 120px;
@@ -86,11 +90,65 @@ header {
   margin-bottom: 20px;
 }
 
+.failure-section-container .text-container .point-description {
+  display: flex;
+  gap: 10px;
+}
+
 .failure-section-container .text-container .point-container p {
   display: inline;
 }
 
-.failure-section-container .text-container .point-description {
+/* My plan section */
+
+.my-plans-container .my-plans-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.my-plans-container .my-plans-description-container {
   display: flex;
-  gap: 10px;
+  gap: 100px;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 130px;
+}
+
+.my-plans-container .my-plans-description-container * {
+  margin-bottom: 15px;
+}
+
+.my-plans-container .my-plans-description-container .description-title {
+  color: #151414;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.my-plans-container .my-plans-description-container p {
+  color: #737272;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* call section */
+
+.call-section-container {
+  height: 300px;
+  background-image: url("../images/gradient1.png"), url("../images/watch.png");
+  background-repeat: no-repeat;
+  margin-bottom: 130px;
+}
+
+.call-section-container .call-section {
+  padding: 60px;
+}
+
+.call-section-container .call-section h2 {
+  color: #fff;
+  max-width: 50%;
+  margin-bottom: 24px;
+}
+
+.call-section-container .call-section .btn-primary {
+  padding: 20px 36px;
 }
